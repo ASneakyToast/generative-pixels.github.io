@@ -1,0 +1,52 @@
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 16x;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: grid;
+  grid-gap: 16px;
+}
+
+body {
+  display: grid;
+  grid-gap: 64px;
+  grid-template-columns: 1fr 4fr;
+  padding: 32px 48px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+aside {
+  display: grid;
+  grid-gap: 24px;
+  height: fit-content;
+}
+
+main {
+  display: grid;
+}
+
+#myContainer {
+  border-radius: 6px;
+  line-height: 0;
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba( 0,0,0,0.5 );
+}
+
+canvas {
+  border-radius: 6px;
+}
