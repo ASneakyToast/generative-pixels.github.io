@@ -4,13 +4,15 @@ h1, h2, p {
 }
 
 a {
-  color: navy;
+  color: orange;
 }
 a:visited {
-  color: navy;
+  color: orange;
 }
 
 ul {
+  display: grid;
+  grid-gap: 8px;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 16x;
@@ -29,6 +31,7 @@ section {
 }
 
 body {
+  background-color: #222;
   display: grid;
   grid-gap: 64px;
   grid-template-columns: 1fr 4fr;
@@ -38,6 +41,7 @@ body {
 }
 
 aside {
+  color: white;
   display: grid;
   grid-gap: 24px;
   height: fit-content;
